@@ -207,4 +207,4 @@ Fokus interpretasi adalah F1 kelas positif dan PR-AUC. Feature importance disebu
 
 ## Reproducibility
 
-Parameter utama terpusat di `src/config.py`, termasuk seed, model embedding, horizon, rasio split, BERTopic, dan model klasifikasi. Input dilacak dengan SHA-256. Mode `sample` tidak boleh dipakai sebagai hasil final jurnal.
+Parameter utama terpusat di `src/config.py`, termasuk seed, model embedding, horizon, rasio split, BERTopic, dan model klasifikasi. Input dilacak dengan SHA-256. Mode `sample` tidak boleh dipakai sebagai hasil final jurnal. 
