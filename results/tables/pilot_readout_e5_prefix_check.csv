@@ -1,0 +1,3 @@
+variant,prefix_in_metadata,verdict,reason
+e5small_trunc512,passage: ,OK,prefix 'passage: ' tercatat pada fingerprint payload dan dipakai saat encode
+e5small_chunk512,passage: ,OK,prefix 'passage: ' tercatat pada fingerprint payload dan dipakai saat encode

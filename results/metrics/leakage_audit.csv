@@ -1,0 +1,9 @@
+check,passed,detail
+target_not_in_features,True,[]
+feature_timestamp_not_future,True,feature_timestamp <= origin date
+target_after_origin,True,target_date > date
+rolling_windows_shifted,True,rolling statistics use shift(1)
+threshold_train_only,True,latest origin=2026-08-28 00:00:00; latest target=2026-08-29 00:00:00; cutoff=2026-08-30 00:00:00
+topic_model_train_only,True,"{'fit_scope': 'train_only', 'train_cutoff': '2026-08-30 00:00:00', 'training_documents': 121, 'min_topic_size': 8, 'n_neighbors': 15, 'n_components': 5, 'min_cluster_size': 8, 'top_n_words': 10}"
+no_duplicate_url,True,0
+no_duplicate_article_across_split,True,cleaned article keys unique

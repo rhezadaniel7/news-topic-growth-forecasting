@@ -1,0 +1,61 @@
+{
+  "pilot_tag": "pilot31",
+  "seed": 42,
+  "document_budget": {
+    "LOW SPARSITY": 2600,
+    "MEDIUM SPARSITY": 2000,
+    "HIGH SPARSITY": 1600
+  },
+  "selection_rule": "stratified by sparsity_category over forecast_eligible topics; seeded permutation, greedy fill sampai anggaran dokumen per stratum terpakai",
+  "topic_count": 31,
+  "topics": [
+    6,
+    9,
+    13,
+    19,
+    28,
+    29,
+    35,
+    36,
+    42,
+    47,
+    48,
+    65,
+    69,
+    83,
+    85,
+    90,
+    92,
+    93,
+    94,
+    96,
+    111,
+    112,
+    115,
+    117,
+    118,
+    131,
+    133,
+    141,
+    143,
+    156,
+    163
+  ],
+  "document_count": 6047,
+  "documents_by_split": {
+    "test": 1888,
+    "train": 3288,
+    "validation": 871
+  },
+  "documents_by_sparsity": {
+    "HIGH SPARSITY": 1588,
+    "LOW SPARSITY": 2548,
+    "MEDIUM SPARSITY": 1911
+  },
+  "topics_by_sparsity": {
+    "HIGH SPARSITY": 19,
+    "LOW SPARSITY": 4,
+    "MEDIUM SPARSITY": 8
+  },
+  "note": "topic assignment, topic_daily_volume, dan label tetap memakai artefak run sebelumnya; subset ini hanya menentukan dokumen mana yang di-encode ulang"
+}

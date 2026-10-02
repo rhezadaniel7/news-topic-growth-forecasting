@@ -1,0 +1,10 @@
+metric,value
+total_topic_days,81900
+zero_baseline_count,65180
+raw_percentage_infinite_candidates,8580
+growth_rate_nan,182
+growth_rate_infinite,0
+growth_rate_finite,81718
+percentage_change_nan,182
+percentage_change_infinite,0
+percentage_change_finite,81718

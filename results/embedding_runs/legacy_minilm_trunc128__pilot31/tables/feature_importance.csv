@@ -1,0 +1,44 @@
+horizon,model,feature_set,feature,feature_group,native_importance,native_method,permutation_importance_mean_f1,permutation_importance_std_f1
+1,Random Forest,Temporal Only,current_volume,Temporal,0.16595053861537834,tree_importance,0.20462809546205704,0.010334665217973714
+1,Random Forest,Temporal Only,lag_1,Temporal,0.04016441323204423,tree_importance,0.0643614965777713,0.006621184440955299
+1,Random Forest,Temporal Only,lag_2,Temporal,0.025266742409982453,tree_importance,-0.007753225713059364,0.0028519922622999754
+1,Random Forest,Temporal Only,lag_3,Temporal,0.030077439856972275,tree_importance,-0.02235851496529504,0.0048766552997236935
+1,Random Forest,Temporal Only,lag_4,Temporal,0.0496678864452192,tree_importance,9.212742290648501e-05,0.005692904951635686
+1,Random Forest,Temporal Only,rolling_mean_3,Temporal,0.10528550809172253,tree_importance,0.08903740612772396,0.008590697516698359
+1,Random Forest,Temporal Only,rolling_mean_7,Temporal,0.14658346221924656,tree_importance,0.07216632951475484,0.014404796326942061
+1,Random Forest,Temporal Only,rolling_std_7,Temporal,0.15657313047393773,tree_importance,0.08649677981146711,0.011653370055485645
+1,Random Forest,Temporal Only,growth_rate,Temporal,0.05095770777672438,tree_importance,0.03782143290154275,0.009536968322919703
+1,Random Forest,Temporal Only,percentage_change,Temporal,0.04685611390735529,tree_importance,0.015151697200305314,0.0030902674594395917
+1,Random Forest,Temporal Only,momentum,Temporal,0.05216514553207892,tree_importance,-0.011209014873210622,0.008383388088787127
+1,Random Forest,Temporal Only,burst_intensity,Temporal,0.130451911439338,tree_importance,0.028376231261730188,0.007887851970467048
+2,XGBoost,Temporal Only,current_volume,Temporal,0.10406169295310974,tree_importance,0.009102187615753687,0.0045366245045848986
+2,XGBoost,Temporal Only,lag_1,Temporal,0.03617356717586517,tree_importance,-0.0018344957748315572,0.001101138941819768
+2,XGBoost,Temporal Only,lag_2,Temporal,0.04142573103308678,tree_importance,0.0031286958171380273,0.005256807604287979
+2,XGBoost,Temporal Only,lag_3,Temporal,0.04069039598107338,tree_importance,-0.00341814831291386,0.002296809757285182
+2,XGBoost,Temporal Only,lag_4,Temporal,0.03792690485715866,tree_importance,0.004439754167846299,0.0035228152897725786
+2,XGBoost,Temporal Only,rolling_mean_3,Temporal,0.0925968810915947,tree_importance,-0.005575567189580688,0.003527888345494572
+2,XGBoost,Temporal Only,rolling_mean_7,Temporal,0.21703197062015533,tree_importance,0.11038240271424878,0.0173031545986464
+2,XGBoost,Temporal Only,rolling_std_7,Temporal,0.17961500585079193,tree_importance,0.04379015503237586,0.006460797645705109
+2,XGBoost,Temporal Only,growth_rate,Temporal,0.05866904556751251,tree_importance,-0.0012923648035927827,0.001464154983513976
+2,XGBoost,Temporal Only,percentage_change,Temporal,0.08644603937864304,tree_importance,-0.0024655688688999923,0.0008200504700694647
+2,XGBoost,Temporal Only,momentum,Temporal,0.05204055458307266,tree_importance,-0.0018670891067748552,0.0024058490031420784
+2,XGBoost,Temporal Only,burst_intensity,Temporal,0.05332212522625923,tree_importance,-0.022173477272822616,0.0031010168365206594
+3,Logistic Regression,Semantic + Temporal,semantic_similarity_mean,Semantic,0.011453332471669641,absolute_logistic_coefficient,-0.00035316882526861273,0.000780404699219497
+3,Logistic Regression,Semantic + Temporal,semantic_similarity_std,Semantic,0.01117055505872871,absolute_logistic_coefficient,-3.1906065414144533e-07,0.0003335338513005023
+3,Logistic Regression,Semantic + Temporal,semantic_drift,Semantic,0.020025049469719527,absolute_logistic_coefficient,0.0,0.0
+3,Logistic Regression,Semantic + Temporal,topic_probability_mean,Semantic,0.08751064905750175,absolute_logistic_coefficient,0.0034622271723618314,0.002419174845831479
+3,Logistic Regression,Semantic + Temporal,topic_probability_std,Semantic,0.07198258569741234,absolute_logistic_coefficient,0.007913440328988908,0.0010656252858823653
+3,Logistic Regression,Semantic + Temporal,topic_probability_change,Semantic,0.05462486238487537,absolute_logistic_coefficient,0.0007587982888069167,0.0018674459326045532
+3,Logistic Regression,Semantic + Temporal,similarity_change,Semantic,0.10117862725558152,absolute_logistic_coefficient,0.0004960842315011371,0.0033043185252309005
+3,Logistic Regression,Semantic + Temporal,current_volume,Temporal,0.3902177205716727,absolute_logistic_coefficient,0.034518916072688,0.004750038608828067
+3,Logistic Regression,Semantic + Temporal,lag_1,Temporal,0.3055075711886092,absolute_logistic_coefficient,0.02337974070737834,0.00343550321014316
+3,Logistic Regression,Semantic + Temporal,lag_2,Temporal,0.05926128802745724,absolute_logistic_coefficient,0.0034832546066605906,0.00048030117404191855
+3,Logistic Regression,Semantic + Temporal,lag_3,Temporal,0.10398639240805325,absolute_logistic_coefficient,0.004626750619998588,0.0015300023950194114
+3,Logistic Regression,Semantic + Temporal,lag_4,Temporal,0.14666843982885033,absolute_logistic_coefficient,0.003933560173539607,0.0016709461002914275
+3,Logistic Regression,Semantic + Temporal,rolling_mean_3,Temporal,0.11074116145743493,absolute_logistic_coefficient,0.006310765675286744,0.0016584206940764464
+3,Logistic Regression,Semantic + Temporal,rolling_mean_7,Temporal,0.6085785380475641,absolute_logistic_coefficient,0.07696354176628042,0.003996368882783684
+3,Logistic Regression,Semantic + Temporal,rolling_std_7,Temporal,0.1316926045907546,absolute_logistic_coefficient,0.004211871383623033,0.002981181364289923
+3,Logistic Regression,Semantic + Temporal,growth_rate,Temporal,0.5935332464241706,absolute_logistic_coefficient,0.06054188083599447,0.0029103430411866107
+3,Logistic Regression,Semantic + Temporal,percentage_change,Temporal,0.2677899192227048,absolute_logistic_coefficient,0.01862643756668082,0.001535191017049147
+3,Logistic Regression,Semantic + Temporal,momentum,Temporal,0.09349635042397102,absolute_logistic_coefficient,0.0030373246663150666,0.0034898343106715764
+3,Logistic Regression,Semantic + Temporal,burst_intensity,Temporal,0.31129407291378425,absolute_logistic_coefficient,0.015235642841225971,0.00508848654903004

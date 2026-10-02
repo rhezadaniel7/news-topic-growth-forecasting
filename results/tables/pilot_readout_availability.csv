@@ -1,0 +1,6 @@
+variant,embedding_ready,semantic_features_ready,status
+legacy_minilm_trunc128,True,True,READY
+minilm_trunc128,True,True,READY
+minilm_chunk128,True,True,READY
+e5small_trunc512,True,True,READY
+e5small_chunk512,True,True,READY

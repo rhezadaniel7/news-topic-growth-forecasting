@@ -1,0 +1,12 @@
+check,passed,detail
+target_not_in_features,True,[]
+future_volume_not_in_features,True,future_volume hanya ada pada label audit
+future_timestamp_not_in_features,True,target_date hanya ada pada label audit
+feature_timestamp_not_after_origin,True,semantic dan temporal feature_timestamp <= origin date
+semantic_centroid_not_future,True,centroid kumulatif berhenti pada origin date
+rolling_features_past_only,True,rolling windows memakai shift(1)
+growth_score_not_predictor,True,growth_score hanya label audit
+threshold_training_only,True,max origin=2025-04-25 00:00:00; max target=2025-04-26 00:00:00
+embedding_fixed_pretrained_encoder,True,pretrained SentenceTransformer; tidak ada fit pada corpus future
+topic_model_train_only,True,"fit_scope=training_only; train_period=['2024-07-31', '2025-04-26']"
+forbidden_columns_absent,True,[]

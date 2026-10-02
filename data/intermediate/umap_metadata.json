@@ -1,0 +1,19 @@
+{
+  "embedding_hash": "e23f05d51a46850dfa34c3f7423ddf456f7abdcf1b26b42c05a097fb88cb3f4e",
+  "train_rows": 33899,
+  "validation_rows": 11243,
+  "test_rows": 22018,
+  "parameters": {
+    "n_neighbors": 15,
+    "n_components": 5,
+    "metric": "cosine",
+    "min_dist": 0.0,
+    "random_state": 42,
+    "transform_seed": 42,
+    "low_memory": true,
+    "n_jobs": 1
+  },
+  "fit_scope": "train_only",
+  "processing_seconds": 77.44998720000149,
+  "cache_hit": false
+}

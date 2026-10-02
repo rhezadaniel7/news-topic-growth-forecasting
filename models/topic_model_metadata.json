@@ -1,0 +1,10 @@
+{
+  "fit_scope": "train_only",
+  "train_cutoff": "2026-08-30 00:00:00",
+  "training_documents": 121,
+  "min_topic_size": 8,
+  "n_neighbors": 15,
+  "n_components": 5,
+  "min_cluster_size": 8,
+  "top_n_words": 10
+}

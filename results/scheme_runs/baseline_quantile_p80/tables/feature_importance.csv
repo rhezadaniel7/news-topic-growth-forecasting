@@ -1,0 +1,51 @@
+horizon,model,feature_set,feature,feature_group,native_importance,native_method,permutation_importance_mean_f1,permutation_importance_std_f1
+1,XGBoost,Temporal Only,current_volume,Temporal,0.17391687631607056,tree_importance,0.04404243028455135,0.0021001986780983172
+1,XGBoost,Temporal Only,lag_1,Temporal,0.03255457058548927,tree_importance,-0.0029739287103663246,0.0002603196550300185
+1,XGBoost,Temporal Only,lag_2,Temporal,0.012952114455401897,tree_importance,-0.0016251724585988558,0.00023074867863476733
+1,XGBoost,Temporal Only,lag_3,Temporal,0.006301816552877426,tree_importance,-0.0020408623925026737,0.0008110391731549108
+1,XGBoost,Temporal Only,lag_4,Temporal,0.008425314910709858,tree_importance,-0.0004703514217844651,0.00028315627546956546
+1,XGBoost,Temporal Only,rolling_mean_3,Temporal,0.07321570813655853,tree_importance,-0.00014544260594433477,0.0002512188469203326
+1,XGBoost,Temporal Only,rolling_mean_7,Temporal,0.46073734760284424,tree_importance,0.05758859599656783,0.002894314394210045
+1,XGBoost,Temporal Only,rolling_std_7,Temporal,0.15928693115711212,tree_importance,0.0024447637233659947,0.0016871200129561779
+1,XGBoost,Temporal Only,growth_rate,Temporal,0.00985740963369608,tree_importance,-0.004615714781649416,0.0007763581083474805
+1,XGBoost,Temporal Only,percentage_change,Temporal,0.01884341984987259,tree_importance,-7.022361247692732e-05,9.01402908725071e-05
+1,XGBoost,Temporal Only,momentum,Temporal,0.014373840764164925,tree_importance,-0.0007290990804990737,0.00046195343163533
+1,XGBoost,Temporal Only,burst_intensity,Temporal,0.02953457459807396,tree_importance,-0.006000956319151607,0.0007127247427283028
+2,Random Forest,Semantic + Temporal,semantic_similarity_mean,Semantic,0.016710246283595853,tree_importance,0.000932246792153113,0.00035137494422252726
+2,Random Forest,Semantic + Temporal,semantic_similarity_std,Semantic,0.047571592190742334,tree_importance,0.0005006248086613762,0.0006234573809575344
+2,Random Forest,Semantic + Temporal,semantic_drift,Semantic,0.030297039636668858,tree_importance,0.0021309067816063453,0.0008573147789419502
+2,Random Forest,Semantic + Temporal,topic_probability_mean,Semantic,0.01679365691149397,tree_importance,0.00041927306668607665,0.00039948948747025546
+2,Random Forest,Semantic + Temporal,topic_probability_std,Semantic,0.024017431769326792,tree_importance,0.0011356881850716149,0.0003427814741645453
+2,Random Forest,Semantic + Temporal,topic_probability_change,Semantic,0.016627251782092265,tree_importance,-0.0013569899341797198,0.0002140512776838894
+2,Random Forest,Semantic + Temporal,similarity_change,Semantic,0.016278330677853354,tree_importance,3.381657686405415e-05,0.0004881384886767545
+2,Random Forest,Semantic + Temporal,current_volume,Temporal,0.08261833660041737,tree_importance,0.0019438603229549045,0.0005162833645011231
+2,Random Forest,Semantic + Temporal,lag_1,Temporal,0.042382564476147515,tree_importance,0.0007496175937484085,0.0006924788966715713
+2,Random Forest,Semantic + Temporal,lag_2,Temporal,0.042688147693924414,tree_importance,0.00037347602325614736,0.0010835599945124598
+2,Random Forest,Semantic + Temporal,lag_3,Temporal,0.02044667233869853,tree_importance,0.0003023643371329543,4.9807132994544244e-05
+2,Random Forest,Semantic + Temporal,lag_4,Temporal,0.011494683017671502,tree_importance,0.00021763089883821695,0.0002825876754829644
+2,Random Forest,Semantic + Temporal,rolling_mean_3,Temporal,0.10730947428341787,tree_importance,0.002016502821405264,0.0006529044484353706
+2,Random Forest,Semantic + Temporal,rolling_mean_7,Temporal,0.2091659941039839,tree_importance,0.006929047028353152,0.001229310493595253
+2,Random Forest,Semantic + Temporal,rolling_std_7,Temporal,0.20050376089293112,tree_importance,0.10628248601272765,0.002276702608077472
+2,Random Forest,Semantic + Temporal,growth_rate,Temporal,0.01395500096724344,tree_importance,-0.0012534619790117274,0.00023448234223642016
+2,Random Forest,Semantic + Temporal,percentage_change,Temporal,0.015366421090021246,tree_importance,-0.001351399818662724,0.00022078594320678767
+2,Random Forest,Semantic + Temporal,momentum,Temporal,0.019632249080309257,tree_importance,-0.0013628462707349076,0.0003448369694650729
+2,Random Forest,Semantic + Temporal,burst_intensity,Temporal,0.06614114620346041,tree_importance,0.0012957056241218012,0.0006317140963457802
+3,Random Forest,Semantic + Temporal,semantic_similarity_mean,Semantic,0.019664348840113515,tree_importance,0.0004098846100541786,0.0004030233717450719
+3,Random Forest,Semantic + Temporal,semantic_similarity_std,Semantic,0.035320299684943726,tree_importance,0.0011993595044069937,0.0006584967209874458
+3,Random Forest,Semantic + Temporal,semantic_drift,Semantic,0.03234645892485282,tree_importance,0.0026976402944440593,0.0008552980937221848
+3,Random Forest,Semantic + Temporal,topic_probability_mean,Semantic,0.01710610529759319,tree_importance,0.0012903813699444377,0.0008598250477728527
+3,Random Forest,Semantic + Temporal,topic_probability_std,Semantic,0.01709207038106204,tree_importance,3.677533383710241e-05,0.0004317817836275514
+3,Random Forest,Semantic + Temporal,topic_probability_change,Semantic,0.015938793990191366,tree_importance,0.00019678998520566982,0.0005085324848367967
+3,Random Forest,Semantic + Temporal,similarity_change,Semantic,0.01967380212587298,tree_importance,0.0001788941239116104,0.00044548227253692085
+3,Random Forest,Semantic + Temporal,current_volume,Temporal,0.07997768592829167,tree_importance,0.0038430633888044464,0.0011711360359931203
+3,Random Forest,Semantic + Temporal,lag_1,Temporal,0.04142330899356705,tree_importance,0.0026767789840042465,0.0005515251378298471
+3,Random Forest,Semantic + Temporal,lag_2,Temporal,0.040182530415676924,tree_importance,0.00020566137365267688,0.00018416757868113461
+3,Random Forest,Semantic + Temporal,lag_3,Temporal,0.017689799329009485,tree_importance,0.0006666528052847065,0.0003139766645755828
+3,Random Forest,Semantic + Temporal,lag_4,Temporal,0.03235476532037012,tree_importance,0.0013139800836907245,0.0005429291335064364
+3,Random Forest,Semantic + Temporal,rolling_mean_3,Temporal,0.11891031123648017,tree_importance,0.002186374907594257,0.0004991284268023821
+3,Random Forest,Semantic + Temporal,rolling_mean_7,Temporal,0.18511341832693215,tree_importance,0.004394532343338442,0.0021021423247952987
+3,Random Forest,Semantic + Temporal,rolling_std_7,Temporal,0.21654588344554943,tree_importance,0.019205737991424332,0.0032561122041095784
+3,Random Forest,Semantic + Temporal,growth_rate,Temporal,0.012389122830040143,tree_importance,0.001153376552617069,0.0007268650652562345
+3,Random Forest,Semantic + Temporal,percentage_change,Temporal,0.012712998992980193,tree_importance,0.002117899552416147,0.0007372723921024459
+3,Random Forest,Semantic + Temporal,momentum,Temporal,0.022573104405719246,tree_importance,0.0005704516642470292,0.0005643377022715738
+3,Random Forest,Semantic + Temporal,burst_intensity,Temporal,0.06298519153075376,tree_importance,-0.00039393876068654076,0.0016495211916207403

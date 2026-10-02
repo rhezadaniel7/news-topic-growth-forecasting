@@ -1,0 +1,4 @@
+split,start_date,end_date,active_dates,percentage_of_active_dates,rows,percentage_of_rows
+train,2024-07-31,2025-04-26,270,60.0,33899,50.474985
+validation,2025-04-27,2025-07-25,90,20.0,11243,16.740619
+test,2025-07-26,2025-10-23,90,20.0,22018,32.784395

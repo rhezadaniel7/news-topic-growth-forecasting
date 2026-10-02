@@ -1,0 +1,10 @@
+{
+  "dataset_sha256": "43512a97a8b3a1e424329bc5eac6b5a94a424dcd1bdf243185d9bc440c3980fc",
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "rows": 447,
+  "shape": [
+    447,
+    384
+  ],
+  "cache_hit": false
+}

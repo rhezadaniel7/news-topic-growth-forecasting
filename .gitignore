@@ -1,0 +1,6 @@
+.venv/
+.venv-encoder/
+.claude/
+__pycache__/
+*.py[cod]
+.env

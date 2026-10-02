@@ -1,0 +1,2 @@
+number_of_topics,outlier_ratio,topic_diversity,silhouette_score,coherence_score,coherence_status,warning
+4,0.7606263982102909,0.9,0.06546036154031754,,not evaluated: gensim-compatible token corpus not configured,Outlier ratio melebihi 50%; cakupan topic time series terbatas.

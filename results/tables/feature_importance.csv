@@ -1,0 +1,44 @@
+horizon,model,feature_set,feature,feature_group,native_importance,native_method,permutation_importance_mean_f1,permutation_importance_std_f1
+1,XGBoost,Semantic + Temporal,semantic_similarity_mean,Semantic,0.01156808715313673,tree_importance,-0.00017110906681092609,0.000527224309619736
+1,XGBoost,Semantic + Temporal,semantic_similarity_std,Semantic,0.12126275897026062,tree_importance,0.001923375109643488,0.00024117159706674957
+1,XGBoost,Semantic + Temporal,semantic_drift,Semantic,0.010669473558664322,tree_importance,-0.0016310291586691284,0.0002361169073891749
+1,XGBoost,Semantic + Temporal,topic_probability_mean,Semantic,0.009440935216844082,tree_importance,0.0004572809161995095,0.0006761641590607044
+1,XGBoost,Semantic + Temporal,topic_probability_std,Semantic,0.011566049419343472,tree_importance,-0.00024535477027090027,0.00015053959107256043
+1,XGBoost,Semantic + Temporal,topic_probability_change,Semantic,0.008478343486785889,tree_importance,-0.0004910538068462755,0.0003128488453122458
+1,XGBoost,Semantic + Temporal,similarity_change,Semantic,0.009143181145191193,tree_importance,-0.0038832207053976276,0.0004675355364548881
+1,XGBoost,Semantic + Temporal,current_volume,Temporal,0.10853009670972824,tree_importance,0.006318739777769755,0.0005075806726787663
+1,XGBoost,Semantic + Temporal,lag_1,Temporal,0.014156549237668514,tree_importance,0.002080981154524064,0.0005446705013857525
+1,XGBoost,Semantic + Temporal,lag_2,Temporal,0.00896172970533371,tree_importance,0.0001703248014234826,0.000532430374584408
+1,XGBoost,Semantic + Temporal,lag_3,Temporal,0.008535913191735744,tree_importance,-0.0006020931906235317,0.00036214408683499986
+1,XGBoost,Semantic + Temporal,lag_4,Temporal,0.00748872384428978,tree_importance,1.3013525046967623e-05,0.0004010331752643565
+1,XGBoost,Semantic + Temporal,rolling_mean_3,Temporal,0.036136265844106674,tree_importance,-0.0005529980722778438,0.00024376626255683513
+1,XGBoost,Semantic + Temporal,rolling_mean_7,Temporal,0.37062785029411316,tree_importance,0.01259927807266309,0.0032717034603730825
+1,XGBoost,Semantic + Temporal,rolling_std_7,Temporal,0.14174580574035645,tree_importance,-0.01844274030867623,0.0015617036785001617
+1,XGBoost,Semantic + Temporal,growth_rate,Temporal,0.01082146167755127,tree_importance,-8.563234816967302e-05,0.0001763527050330235
+1,XGBoost,Semantic + Temporal,percentage_change,Temporal,0.024051876738667488,tree_importance,-0.0016010584938758066,0.0003634605800685206
+1,XGBoost,Semantic + Temporal,momentum,Temporal,0.017264358699321747,tree_importance,-0.0017376635128391494,0.00034453154191450467
+1,XGBoost,Semantic + Temporal,burst_intensity,Temporal,0.06955057382583618,tree_importance,-0.009696156590340765,0.0006481667580443169
+2,Logistic Regression,Temporal Only,current_volume,Temporal,0.2860859381765975,absolute_logistic_coefficient,0.02638457810106465,0.0030797294002376705
+2,Logistic Regression,Temporal Only,lag_1,Temporal,0.15976026243927846,absolute_logistic_coefficient,0.012398386621516466,0.0017924589154805777
+2,Logistic Regression,Temporal Only,lag_2,Temporal,0.0078784856792425,absolute_logistic_coefficient,0.00027395702731157766,0.0006280892635437008
+2,Logistic Regression,Temporal Only,lag_3,Temporal,0.03151089710285879,absolute_logistic_coefficient,0.000558276872088459,0.0007404972661746337
+2,Logistic Regression,Temporal Only,lag_4,Temporal,0.007756571515457499,absolute_logistic_coefficient,0.0002322810740221115,0.0003673298086575238
+2,Logistic Regression,Temporal Only,rolling_mean_3,Temporal,0.0546650498860945,absolute_logistic_coefficient,0.0020228545952840514,0.0004504425353301956
+2,Logistic Regression,Temporal Only,rolling_mean_7,Temporal,0.3305278136835084,absolute_logistic_coefficient,0.033454506217261884,0.0020062001957024842
+2,Logistic Regression,Temporal Only,rolling_std_7,Temporal,0.4961991056689464,absolute_logistic_coefficient,0.04085350143077204,0.002787362118318409
+2,Logistic Regression,Temporal Only,growth_rate,Temporal,0.33423346165242374,absolute_logistic_coefficient,0.026882283053174038,0.003088239481350441
+2,Logistic Regression,Temporal Only,percentage_change,Temporal,0.2126612511962345,absolute_logistic_coefficient,0.01246231039832063,0.0006147307370709007
+2,Logistic Regression,Temporal Only,momentum,Temporal,0.01625109004603293,absolute_logistic_coefficient,-0.001380885935021925,0.0007486115422633351
+2,Logistic Regression,Temporal Only,burst_intensity,Temporal,0.02680037331818116,absolute_logistic_coefficient,-0.0025102120940495133,0.0004837155758122549
+3,XGBoost,Temporal Only,current_volume,Temporal,0.08890987932682037,tree_importance,-0.002934411008555693,0.0016867233998945996
+3,XGBoost,Temporal Only,lag_1,Temporal,0.025357820093631744,tree_importance,0.005011379120892101,0.0003146772179654219
+3,XGBoost,Temporal Only,lag_2,Temporal,0.01602974534034729,tree_importance,-0.0022665364667919796,0.0006956061552166709
+3,XGBoost,Temporal Only,lag_3,Temporal,0.014397011138498783,tree_importance,-0.0003333673991014474,0.0005324946954530564
+3,XGBoost,Temporal Only,lag_4,Temporal,0.030923999845981598,tree_importance,-0.005206582617320566,0.0011550316919278938
+3,XGBoost,Temporal Only,rolling_mean_3,Temporal,0.1796022653579712,tree_importance,-0.0010000636549319375,0.001104995240137148
+3,XGBoost,Temporal Only,rolling_mean_7,Temporal,0.4007489085197449,tree_importance,0.043457471278418425,0.0038010189135640545
+3,XGBoost,Temporal Only,rolling_std_7,Temporal,0.14994296431541443,tree_importance,-0.005721317797765235,0.003973163544064795
+3,XGBoost,Temporal Only,growth_rate,Temporal,0.02569214440882206,tree_importance,0.0007793763755570393,0.0006961336230516924
+3,XGBoost,Temporal Only,percentage_change,Temporal,0.025547288358211517,tree_importance,-0.0029249264129686315,0.0009749065605763817
+3,XGBoost,Temporal Only,momentum,Temporal,0.015582987107336521,tree_importance,-0.0008648699628852286,0.00034207384273228806
+3,XGBoost,Temporal Only,burst_intensity,Temporal,0.027264999225735664,tree_importance,-0.011424223375119136,0.0006647569196688994

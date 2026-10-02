@@ -1,0 +1,15 @@
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.7.2
+sentence-transformers==5.1.0
+bertopic==0.17.3
+umap-learn==0.5.9.post2
+hdbscan==0.8.40
+matplotlib==3.9.0
+scipy==1.12.0
+joblib==1.5.3
+pyarrow==21.0.0
+xgboost==3.0.5
+shap==0.48.0
+tabulate==0.9.0
+

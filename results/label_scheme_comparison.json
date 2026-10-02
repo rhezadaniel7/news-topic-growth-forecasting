@@ -1,0 +1,25 @@
+{
+  "schemes": {
+    "baseline_quantile_p80": {
+      "definition": "growth_score > kuantil p80 growth_score training",
+      "rationale": "Skema yang berlaku sebelumnya. Karena zero-inflation, p80 training bernilai 0,0 sehingga aturan kolaps menjadi future_volume > median historis, dan untuk 91,5% observasi eligible median historis = 0. Label 'growth' praktis berarti 'besok ada artikel'.",
+      "results_directory": "results/scheme_runs/baseline_quantile_p80"
+    },
+    "active_baseline_p80": {
+      "definition": "hanya topic-day dengan lag_1 > 0; growth_score > kuantil p80 growth_score training pada populasi tersebut",
+      "rationale": "Memperbaiki populasi, bukan threshold: growth hanya didefinisikan ketika ada baseline aktif untuk tumbuh dari. lag_1 diketahui pada origin date sehingga seleksi ini tidak melihat masa depan.",
+      "results_directory": "results/scheme_runs/active_baseline_p80"
+    },
+    "positive_only_p80": {
+      "definition": "growth_score > kuantil p80 dari growth_score training yang > 0",
+      "rationale": "Memperbaiki threshold, bukan populasi: kuantil di-fit pada ekor positif sehingga tidak lagi jatuh di 0. Referensi kuantilnya dipilih berdasarkan outcome, dan untuk baris bermedian 0 aturannya tetap menjadi pernyataan volume absolut.",
+      "results_directory": "results/scheme_runs/positive_only_p80"
+    },
+    "burst_mad_k2": {
+      "definition": "future_volume > median historis + 2 * max(1,4826 * MAD historis, 1,0)",
+      "rationale": "Threshold tetap, tidak di-fit dari distribusi, sehingga arti label tidak berubah ketika distribusi volume bergeser antar split. Floor skala 1,0 artikel dinyatakan eksplisit untuk MAD = 0.",
+      "results_directory": "results"
+    }
+  },
+  "recommended_scheme": "burst_mad_k2"
+}

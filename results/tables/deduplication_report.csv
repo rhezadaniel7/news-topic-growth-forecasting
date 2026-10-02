@@ -1,0 +1,5 @@
+stage,rows_before,rows_removed,rows_after
+raw,80472,0,80472
+exact_url_duplicate,80472,13091,67381
+exact_title_duplicate,67381,213,67168
+normalized_title_duplicate,67168,8,67160

@@ -1,0 +1,4 @@
+model,feature_set,forecast_horizon,status
+all,semantic_temporal,1,"not evaluated: validation/test split must contain two classes (validation={0: 56}, test={0: 22, 1: 10})"
+all,semantic_temporal,2,"not evaluated: validation/test split must contain two classes (validation={0: 56}, test={0: 22, 1: 10})"
+all,semantic_temporal,3,"not evaluated: validation/test split must contain two classes (validation={0: 56}, test={0: 22, 1: 10})"

@@ -1,0 +1,108 @@
+{
+  "status": "LIMITED",
+  "random_seed": 42,
+  "dataset_path": "C:\\0semester5\\Jurnal\\web mining dan data mining\\project\\data\\processed\\news_cleaned.parquet",
+  "dataset_hash": "40b4c0db92b5ef56ca352b32f34190157a3f7127b5c25ad71836d42a4c4369b2",
+  "embedding_path": "C:\\0semester5\\Jurnal\\web mining dan data mining\\project\\data\\intermediate\\embeddings.npy",
+  "embedding_hash": "e23f05d51a46850dfa34c3f7423ddf456f7abdcf1b26b42c05a097fb88cb3f4e",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "fit_scope": "training_only",
+  "split_counts": {
+    "train": 33899,
+    "validation": 11243,
+    "test": 22018
+  },
+  "train_period": [
+    "2024-07-31",
+    "2025-04-26"
+  ],
+  "validation_period": [
+    "2025-04-27",
+    "2025-07-25"
+  ],
+  "test_period": [
+    "2025-07-26",
+    "2025-10-23"
+  ],
+  "umap": {
+    "embedding_hash": "e23f05d51a46850dfa34c3f7423ddf456f7abdcf1b26b42c05a097fb88cb3f4e",
+    "train_rows": 33899,
+    "validation_rows": 11243,
+    "test_rows": 22018,
+    "parameters": {
+      "n_neighbors": 15,
+      "n_components": 5,
+      "metric": "cosine",
+      "min_dist": 0.0,
+      "random_state": 42,
+      "transform_seed": 42,
+      "low_memory": true,
+      "n_jobs": 1
+    },
+    "fit_scope": "train_only",
+    "processing_seconds": 77.44998720000149,
+    "cache_hit": false
+  },
+  "hdbscan_common": {
+    "metric": "euclidean",
+    "cluster_selection_method": "eom",
+    "prediction_data": true
+  },
+  "vectorizer": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 5,
+    "stopword_count": 123,
+    "stopword_source": "PySastrawi 1.0.1 StopWordRemoverFactory (https://github.com/har07/sastrawi)"
+  },
+  "bertopic": {
+    "top_n_words": 10,
+    "calculate_probabilities": false
+  },
+  "configurations": {
+    "A": {
+      "min_topic_size": 15,
+      "min_cluster_size": 15
+    },
+    "B": {
+      "min_topic_size": 25,
+      "min_cluster_size": 25
+    },
+    "C": {
+      "min_topic_size": 50,
+      "min_cluster_size": 50
+    }
+  },
+  "coherence": "mean normalized pointwise mutual information (NPMI) over top-10 word pairs; all training documents; zero-pair smoothing=1/N",
+  "silhouette": {
+    "space": "5-dimensional train-only UMAP space",
+    "metric": "euclidean",
+    "maximum_reproducible_sample": 5000
+  },
+  "software": {
+    "python": "3.10.11",
+    "bertopic": "0.17.3",
+    "umap_learn": "0.5.9.post2",
+    "hdbscan": "0.8.40"
+  },
+  "selected_configuration": "B",
+  "selection_reason": "Konfigurasi B dipilih hanya dari training karena memberi kompromi terbaik: 182 topik, largest-topic share 6,50%, NPMI 0,4474, silhouette 0,5928, diversity 0,7841, dan outlier 39,40%. A lebih terfragmentasi (325 topik; median size 36; outlier 42,12%), sedangkan C membentuk topik dominan 26,04% dan silhouette 0,4059.",
+  "selected_model_path": "C:\\0semester5\\Jurnal\\web mining dan data mining\\project\\models\\bertopic_model_train_only.joblib",
+  "selected_model_hash": "0793b2ec8d24a5531d21ceaf2132beb8bb1f4086ad95c7feeccd561ce37bbaf6",
+  "topic_assignments_path": "C:\\0semester5\\Jurnal\\web mining dan data mining\\project\\data\\processed\\topic_assignments_train_only.parquet",
+  "topic_assignments_hash": "eab8fd6bd5b4d4d27f88ed445603fc41a71f74476c9ed2d829de29f7e141a41d",
+  "outlier_ratio_by_split": {
+    "train": 0.39399392312457593,
+    "validation": 0.48083251801120697,
+    "test": 0.4752929421382505
+  },
+  "transform_seconds": {
+    "validation": 0.5852066999941599,
+    "test": 1.1488899000032688
+  },
+  "minimum_topic_history_active_days": 14,
+  "short_history_topics": 12,
+  "topic_distance_figure_created": true
+}

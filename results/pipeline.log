@@ -1,0 +1,69 @@
+2026-09-20 18:14:21,647 INFO STEP 01 dataset inspection
+2026-09-20 18:14:21,679 INFO STEP 02-03 cleaning and preprocessing
+2026-09-20 18:14:23,318 INFO STEP 04 embeddings
+2026-09-20 18:14:23,329 INFO Use pytorch device_name: cpu
+2026-09-20 18:14:23,329 INFO Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-09-20 18:14:34,461 INFO STEP 05 BERTopic (fit train only, transform future)
+2026-09-20 18:15:22,575 INFO STEP 01 dataset inspection
+2026-09-20 18:15:22,595 INFO STEP 02-03 cleaning and preprocessing
+2026-09-20 18:15:22,786 INFO STEP 04 embeddings
+2026-09-20 18:15:22,804 INFO STEP 05 BERTopic (fit train only, transform future)
+2026-09-20 18:15:35,651 INFO STEP 06 topic evaluation
+2026-09-20 18:15:35,663 INFO STEP 07-09 topic time series and features
+2026-09-20 18:15:35,717 INFO STEP 10-16 horizon t+1
+2026-09-20 18:15:38,764 INFO STEP 10-16 horizon t+2
+2026-09-20 18:15:41,077 INFO STEP 10-16 horizon t+3
+2026-09-20 18:15:43,449 INFO STEP 17-18 explainability and visualizations
+2026-09-20 18:15:45,537 INFO STEP 19 experiment tracking
+2026-09-20 18:15:45,541 INFO STEP 20 final report
+2026-09-20 18:16:23,415 INFO STEP 01 dataset inspection
+2026-09-20 18:16:23,435 INFO STEP 02-03 cleaning and preprocessing
+2026-09-20 18:16:23,629 INFO STEP 04 embeddings
+2026-09-20 18:16:23,638 INFO STEP 05 BERTopic (fit train only, transform future)
+2026-09-20 18:16:36,455 INFO STEP 06 topic evaluation
+2026-09-20 18:16:36,463 INFO STEP 07-09 topic time series and features
+2026-09-20 18:16:36,506 INFO STEP 10-16 horizon t+1
+2026-09-20 18:16:39,482 INFO STEP 10-16 horizon t+2
+2026-09-20 18:16:41,791 INFO STEP 10-16 horizon t+3
+2026-09-20 18:16:44,127 INFO STEP 17-18 explainability and visualizations
+2026-09-20 18:16:46,173 INFO STEP 19 experiment tracking
+2026-09-20 18:16:46,178 INFO STEP 20 final report
+2026-09-20 18:18:20,258 INFO STEP 01 dataset inspection
+2026-09-20 18:18:20,283 INFO STEP 02-03 cleaning and preprocessing
+2026-09-20 18:18:20,502 INFO STEP 04 embeddings
+2026-09-20 18:18:20,510 INFO STEP 05 BERTopic (fit train only, transform future)
+2026-09-20 18:18:33,608 INFO STEP 06 topic evaluation
+2026-09-20 18:18:33,615 WARNING Outlier ratio melebihi 50%; cakupan topic time series terbatas.
+2026-09-20 18:18:33,615 INFO STEP 07-09 topic time series and features
+2026-09-20 18:18:33,658 INFO STEP 10-16 horizon t+1
+2026-09-20 18:18:38,117 INFO STEP 10-16 horizon t+2
+2026-09-20 18:18:41,877 INFO STEP 10-16 horizon t+3
+2026-09-20 18:18:46,095 INFO STEP 17-18 explainability and visualizations
+2026-09-20 18:18:48,813 INFO STEP 19 experiment tracking
+2026-09-20 18:18:48,820 INFO STEP 20 final report
+2026-09-20 18:19:59,313 INFO STEP 01 dataset inspection
+2026-09-20 18:19:59,335 INFO STEP 02-03 cleaning and preprocessing
+2026-09-20 18:19:59,563 INFO STEP 04 embeddings
+2026-09-20 18:19:59,572 INFO STEP 05 BERTopic (fit train only, transform future)
+2026-09-20 18:20:14,254 INFO STEP 06 topic evaluation
+2026-09-20 18:20:14,262 WARNING Outlier ratio melebihi 50%; cakupan topic time series terbatas.
+2026-09-20 18:20:14,262 INFO STEP 07-09 topic time series and features
+2026-09-20 18:20:14,309 INFO STEP 10-16 horizon t+1
+2026-09-20 18:20:19,494 INFO STEP 10-16 horizon t+2
+2026-09-20 18:20:23,921 INFO STEP 10-16 horizon t+3
+2026-09-20 18:20:28,335 INFO STEP 17-18 explainability and visualizations
+2026-09-20 18:20:30,869 INFO STEP 19 experiment tracking
+2026-09-20 18:20:30,875 INFO STEP 20 final report
+2026-09-20 18:37:13,810 INFO STEP 01 dataset inspection
+2026-09-20 18:37:13,831 INFO STEP 02-03 cleaning and preprocessing
+2026-09-20 18:37:15,359 INFO STEP 04 embeddings
+2026-09-20 18:37:15,379 INFO STEP 05 BERTopic (fit train only, transform future)
+2026-09-20 18:37:29,937 INFO STEP 06 topic evaluation
+2026-09-20 18:37:29,944 WARNING Outlier ratio melebihi 50%; cakupan topic time series terbatas.
+2026-09-20 18:37:29,944 INFO STEP 07-09 topic time series and features
+2026-09-20 18:37:29,990 INFO STEP 10-16 horizon t+1
+2026-09-20 18:37:30,025 INFO STEP 10-16 horizon t+2
+2026-09-20 18:37:30,058 INFO STEP 10-16 horizon t+3
+2026-09-20 18:37:30,099 INFO STEP 17-18 explainability and visualizations
+2026-09-20 18:37:32,133 INFO STEP 19 experiment tracking
+2026-09-20 18:37:32,137 INFO STEP 20 final report

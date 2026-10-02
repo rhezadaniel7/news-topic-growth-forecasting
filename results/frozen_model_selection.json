@@ -1,0 +1,52 @@
+{
+  "label_scheme": "burst_mad_k2",
+  "selections": {
+    "1": {
+      "model": "XGBoost",
+      "feature_set": "Semantic + Temporal",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      },
+      "probability_threshold": 0.8,
+      "growth_label_threshold": 2.0,
+      "selection_metric": "official validation F1 growth; tie-break PR-AUC then Macro-F1",
+      "validation_f1": 0.3030973451327434,
+      "validation_pr_auc": 0.2224317844038609
+    },
+    "2": {
+      "model": "Logistic Regression",
+      "feature_set": "Temporal Only",
+      "hyperparameters": {
+        "C": 1.0,
+        "max_iter": 2000,
+        "class_weight": "balanced",
+        "solver": "lbfgs"
+      },
+      "probability_threshold": 0.79,
+      "growth_label_threshold": 2.0,
+      "selection_metric": "official validation F1 growth; tie-break PR-AUC then Macro-F1",
+      "validation_f1": 0.2807017543859649,
+      "validation_pr_auc": 0.18915256585051643
+    },
+    "3": {
+      "model": "XGBoost",
+      "feature_set": "Temporal Only",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      },
+      "probability_threshold": 0.78,
+      "growth_label_threshold": 2.0,
+      "selection_metric": "official validation F1 growth; tie-break PR-AUC then Macro-F1",
+      "validation_f1": 0.2689721421709894,
+      "validation_pr_auc": 0.17252274229187656
+    }
+  }
+}

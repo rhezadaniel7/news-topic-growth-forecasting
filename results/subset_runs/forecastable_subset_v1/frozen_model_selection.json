@@ -1,0 +1,53 @@
+{
+  "label_scheme": "burst_mad_k2",
+  "selections": {
+    "1": {
+      "model": "XGBoost",
+      "feature_set": "Semantic + Temporal",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      },
+      "probability_threshold": 0.64,
+      "growth_label_threshold": 2.0,
+      "selection_metric": "official validation F1 growth; tie-break PR-AUC then Macro-F1",
+      "validation_f1": 0.3490304709141274,
+      "validation_pr_auc": 0.2877423009308882
+    },
+    "2": {
+      "model": "XGBoost",
+      "feature_set": "Semantic + Temporal",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      },
+      "probability_threshold": 0.65,
+      "growth_label_threshold": 2.0,
+      "selection_metric": "official validation F1 growth; tie-break PR-AUC then Macro-F1",
+      "validation_f1": 0.3261538461538461,
+      "validation_pr_auc": 0.270949096544647
+    },
+    "3": {
+      "model": "XGBoost",
+      "feature_set": "Semantic + Temporal",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      },
+      "probability_threshold": 0.7,
+      "growth_label_threshold": 2.0,
+      "selection_metric": "official validation F1 growth; tie-break PR-AUC then Macro-F1",
+      "validation_f1": 0.30550621669627,
+      "validation_pr_auc": 0.2411226453147473
+    }
+  }
+}

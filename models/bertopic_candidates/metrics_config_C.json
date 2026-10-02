@@ -1,0 +1,18 @@
+{
+  "configuration": "C",
+  "number_of_topics": 81,
+  "outlier_count": 10406,
+  "outlier_ratio": 0.30697070710050445,
+  "topic_diversity": 0.8530864197530864,
+  "coherence_npmi": 0.40666534899964696,
+  "silhouette": 0.4058806002140045,
+  "silhouette_sample_size": 5000,
+  "largest_topic_size": 6118,
+  "largest_topic_ratio_non_outlier": 0.26041799685012557,
+  "median_topic_size": 123.0,
+  "smallest_topic_size": 51,
+  "fit_seconds": 20.813078599996516,
+  "min_topic_size": 50,
+  "min_cluster_size": 50,
+  "peak_process_rss_bytes": 3056267264
+}
